@@ -1,0 +1,122 @@
+/* Garantir que o main preencha a tela inteira */
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centraliza verticalmente */
+  align-items: center;  /* Centraliza horizontalmente */
+  height: 100vh;  /* Ocupa toda a altura da tela */
+  padding: 2rem;
+  background-color: #001b2c;  /* Cor de fundo escura */
+  color: white;  /* Cor do texto */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Estilo do título */
+.mainContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Estilo para os parágrafos */
+.mainContent p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo para o último parágrafo, em verde */
+.mainContent p:last-child {
+  font-weight: bold;
+  color: #4CAF50;  /* Cor verde */
+}
+
+/* Seção de serviços */
+.servicesSection {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #2c3e50;  /* Fundo diferente para a seção */
+  padding: 3rem 2rem;
+  border-radius: 8px;
+}
+
+.servicesSection h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.servicesList {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.serviceItem {
+  background-color: #34495e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.serviceItem h3 {
+  font-size: 1.5rem;
+  color: #ecf0f1;
+}
+
+.serviceItem p {
+  color: #bdc3c7;
+}
+
+/* Seção de testemunhos */
+.testimonialsSection {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #34495e;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+}
+
+.testimonialItem {
+  margin-bottom: 1.5rem;
+}
+
+.testimonialItem footer {
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+/* Seção de chamada para ação */
+.ctaSection {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #27ae60;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+}
+
+.ctaSection h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.ctaSection p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.ctaButton {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background-color: #3498db;
+}

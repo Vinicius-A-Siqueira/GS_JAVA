@@ -1,0 +1,72 @@
+.budgetContent {
+  padding: 2rem;
+  background-color: #001b2c;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.budgetFormSection {
+  margin-top: 2rem;
+}
+
+.budgetForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Adicionar uma classe para o input[type="number"] */
+.inputNumber {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submitButton {
+  padding: 0.8rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.resultSection {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #001b2c;
+  border-radius: 5px;
+}
+
+.resultSection h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.costValue {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
